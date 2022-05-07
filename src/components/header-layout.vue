@@ -7,7 +7,7 @@
           <a href="" class="nav-link disabled">Restaurants</a>
           <a href="" class="nav-link disabled">Clients</a>
           <router-link to="/products" class="nav-link">Products</router-link>
-          <router-link to="/orders" class="nav-link">Orders</router-link>
+          <a href="" class="nav-link disabled">Orders</a>
         </div>
         <div class="navbar-nav ms-auto mb-2 mb-lg-0">
           <a href="" class="nav-link">Sair</a>
