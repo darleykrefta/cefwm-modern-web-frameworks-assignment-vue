@@ -6,4 +6,9 @@ async function getAllProducts(): Promise<Product[]> {
   return client.get('products')
 }
 
-export { getAllProducts }
+async function postProduct(product: Product): Promise<Product> {
+  const client = httpClient()
+  return client.post('products', product)
+}
+
+export { getAllProducts, postProduct }
